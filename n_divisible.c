@@ -14,6 +14,10 @@
 int
 main(int argc, char *argv[])
 {
-	
+	isDivisible(3, 1, 3);
+	isDivisible(12, 2, 6);
+	isDivisible(100, 5, 3);
+	isDivisible(12, 7, 5);
+		
 	return 0;
 }
