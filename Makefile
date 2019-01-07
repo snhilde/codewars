@@ -1,5 +1,5 @@
 TARGET=kata
-KATA=next_prime.c
+KATA=array_diff.c
 CC=gcc
 FLAGS=-g -Wall
 
