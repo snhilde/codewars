@@ -1,5 +1,5 @@
 TARGET=kata
-KATA=n_divisible.c
+KATA=make_it.c
 CC=gcc
 FLAGS=-g -Wall
 
