@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <stdint.h>
+#include <math.h>
 
 /* TITLE: Narcissistic Numbers
  * AUTHOR: Staples
@@ -20,14 +21,26 @@
 */
 
 static bool
-is_narcissistic(int i)
+is_narcissistic(int num)
 {
+	int number, digits, i, total;
+	
+	number = num;
+	digits = log10(num) + 1;
+	
+	for (i = digits, total = 0; i; i--) {
+		total += pow(number % 10, digits);
+		number /= 10;
+	}
+	
+	return total == num ? true : false;
 }
 
 int
 main(int argc, char *argv[])
 {
-	
+	printf("%i\n", is_narcissistic(153));
+	printf("%i\n", is_narcissistic(1000));
 	
 	return 0;
 }
