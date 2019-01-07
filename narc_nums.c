@@ -42,7 +42,7 @@ main(int argc, char *argv[])
 	printf("%i\n", is_narcissistic(153));
 	printf("%i\n", is_narcissistic(1000));
 	
-	int max = 10000, i;
+	int max = 100000, i;
 	
 	for (i = 1; i < max; i++) {
 		if (is_narcissistic(i))
