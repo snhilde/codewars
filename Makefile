@@ -1,10 +1,11 @@
 TARGET=kata
-KATA=make_it.c
+KATA=narc_nums.c
 CC=gcc
 FLAGS=-g -Wall
 
-INCS=
-LIBS=
+INCS = -I /usr/include
+LIBS = -L /usr/lib \
+	   -l m
 
 @all:
-	${CC} ${FLAGS} -o ${TARGET} ${KATA}
+	${CC} ${FLAGS} ${INCS} -o ${TARGET} ${KATA} ${LIBS}
