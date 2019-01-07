@@ -1,5 +1,5 @@
 TARGET=kata
-KATA=narc_nums.c
+KATA=next_prime.c
 CC=gcc
 FLAGS=-g -Wall
 
