@@ -18,10 +18,19 @@
  * 12 ==> 13
 */
 
+static uintmax_t
+next_prime(uintmax_t n)
+{
+	uintmax_t next;
+	
+	return next;
+}
+
 int
 main(int argc, char *argv[])
 {
-	
+	printf("%ji\n", next_prime(5));
+	printf("%ji\n", next_prime(12));
 	
 	return 0;
 }
