@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* AUTHOR: naaz
+/* TITLE: Is n divisible by x and y?
+ * AUTHOR: naaz
+ * KYU: 8
+ * 
  * Create a function isDivisible(n, x, y) that checks if a number n is
  * divisible by two numbers x AND y. All inputs are positive, non-zero digits.
  * 
