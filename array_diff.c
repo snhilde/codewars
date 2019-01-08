@@ -24,7 +24,10 @@ array_diff(int *arr1, size_t arr1_size, int *arr2, size_t arr2_size)
 int
 main(int argc, char *argv[])
 {
-	array_diff({1, 2}, 2, {1}, 1);
+	int arr1[] = {1, 2};
+	int arr2[] = {1};
+	
+	array_diff(arr1, 2, arr2, 1);
 	
 	return 0;
 }
