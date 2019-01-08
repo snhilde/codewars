@@ -6,6 +6,7 @@
 /* TITLE: Next Prime
  * AUTHOR: zruF
  * KYU: 7
+ * URL: https://www.codewars.com/kata/next-prime
  * 
  * Get the next prime number!
  * 

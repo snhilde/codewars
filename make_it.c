@@ -5,6 +5,7 @@
 /* TITLE: Will you make it?
  * AUTHOR: user2514386
  * KYU: 8
+ * URL: https://www.codewars.com/kata/will-you-make-it
  * 
  * You were camping with your friends far away from home, but when it's time
  * to go back, you realize that your fuel is running out and the nearest pump is

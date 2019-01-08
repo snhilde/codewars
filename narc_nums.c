@@ -7,6 +7,7 @@
 /* TITLE: Narcissistic Numbers
  * AUTHOR: Staples
  * KYU: 7
+ * URL: https://www.codewars.com/kata/narcissistic-numbers
  * 
  * A Narcissistic Number is a number of length n in which the sum of its digits
  * to the power of n is equal to the original number. If this seems confusing,
